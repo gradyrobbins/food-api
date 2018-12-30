@@ -17,4 +17,6 @@ Once you have retrieved all of the foods from your own Food API, display each on
 1. [x] Create a DOM element in your index.html with a class of foodList.
 1. [x] Create a function which returns a string template. The template is the HTML representation for a food item.
 1. [x] Create a function that inserts an HTML representation of a food into the DOM
-2. [ ] Use Flexbox row direction so that you have a horizontal list of items.
+2. [x] Use Flexbox row direction so that you have a horizontal list of items.
+
+# Chapter 10 practice complete
