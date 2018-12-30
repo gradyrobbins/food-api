@@ -26,7 +26,7 @@ For this exercise, you will be adding barcodes to your food products, and using 
 
 Next, click on one of the search results and get the barcode for the product. It's at the top, right beneath the product name.
 2. [x] Create a new barcode key for each of the items in your API, and provide the correct barcode value that you found in your search.
-3. [ ] Your job is to query the Open Food Facts API for each of your products, and list the following additional information.
+3. [x] Your job is to query the Open Food Facts API for each of your products, and list the following additional information.
 
 Ingredients
 Country of origin
