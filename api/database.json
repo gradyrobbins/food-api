@@ -5,35 +5,35 @@
       "name": "Linguine",
       "type": "pasta",
       "ethnicity": "italian",
-      "barcode": 8076809523509
+      "barcode": "8076809523509"
     },
     {
       "id": 2,
       "name": "Massaman curry",
       "type": "curry",
       "ethnicity": "thai",
-      "barcode": 0016229918378
+      "barcode": "0016229918378"
     },
     {
       "id": 3,
       "name": "Green curry",
       "type": "curry",
       "ethnicity": "thai",
-      "barcode": 0044738102353
+      "barcode": "0044738102353"
     },
     {
       "id": 4,
       "name": "Ravioli Funghi",
       "type": "pasta",
       "ethnicity": "italian",
-      "barcode": 8001665127585
+      "barcode": "8001665127585"
     },
     {
       "id": 8,
       "name": "PB&J",
       "type": "bachelor",
       "ethnicity": "american",
-      "barcode": 00562713
+      "barcode": "00562713"
     }
   ]
 }

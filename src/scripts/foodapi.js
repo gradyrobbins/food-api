@@ -44,16 +44,16 @@ fetch("http://localhost:8088/food")
     .then(parsedFoods => {
         parsedFoods.forEach(food => {
             console.log(food);
-            // fetch(`https://world.openfoodfacts.org/api/v0/product/${food.barcode}.json`)
-            //     .then(response => response.json())
-            //     .then(productInfo => {
-            //         food.ingredients = productInfo.product.ingredients_text;
-            //         food.country = productInfo.product.countries;
-            //         food.sugar = productInfo.product.nutriments.sugars_serving;
-            //         food.fat = productInfo.product.nutriments.fat;
-            //         food.calories = productInfo.product.nutriments.energy_serving;
-            //         const foodAsHTML = foodFactory(food);
-            //         addFoodToDom(foodAsHTML);
-            //     });
+            fetch(`https://world.openfoodfacts.org/api/v0/product/${food.barcode}.json`)
+                .then(response => response.json())
+                .then(productInfo => {
+                    food.ingredients = productInfo.product.ingredients_text;
+                    food.country = productInfo.product.countries;
+                    food.sugar = productInfo.product.nutriments.sugars_serving;
+                    food.fat = productInfo.product.nutriments.fat;
+                    food.calories = productInfo.product.nutriments.energy_serving;
+                    const foodAsHTML = foodFactory(food);
+                    addFoodToDom(foodAsHTML);
+                });
         });
     });
