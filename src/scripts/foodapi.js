@@ -1,4 +1,4 @@
-console.log("hello world foodapi.js")
+console.log("hello world foodapi.js");
 
 fetch("http://localhost:8088/food")
     .then(foods => foods.json())
