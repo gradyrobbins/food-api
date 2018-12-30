@@ -1,5 +1,5 @@
 # Food API
-## Book3 - chapters 9 AND 10
+## Book3 - chapters 9 AND 10 exercises COMPLETE
 
 ### ch 9 Practice using Postman to perform GET, POST, PUT, and DELETE operations on your new food API.
 
@@ -23,9 +23,10 @@ Once you have retrieved all of the foods from your own Food API, display each on
 For this exercise, you will be adding barcodes to your food products, and using another, 3rd-party API to query more information about each product and display it in the DOM. That's right! You don't have to be stuck just messing around with your own data; there's a whole world of information out there for you fetch.
 
 1. [x] use Open Food Facts API- Visit the site and use the search feature to find all foods matching the name property of each of the foods in your food API. For example, search for "Green curry" and see the how many matches there are.
-
 Next, click on one of the search results and get the barcode for the product. It's at the top, right beneath the product name.
+
 2. [x] Create a new barcode key for each of the items in your API, and provide the correct barcode value that you found in your search.
+
 3. [x] Your job is to query the Open Food Facts API for each of your products, and list the following additional information.
 
 Ingredients
@@ -35,3 +36,4 @@ Fat per serving
 Sugar per serving
 Helpful hints: You will need to use the forEach array method to iterate your foods. Inside that forEach, you will need to perform another fetch to get the additional information. The barcode value must be interpolated inside the URL for the inner fetch.
 
+# Chapter 10 practice exercises complete
